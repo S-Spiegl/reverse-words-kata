@@ -1,3 +1,3 @@
 def reverse(sentence)
-  sentence.split.reverse.join(" ")
+  sentence.split.reverse.join(" ").downcase.capitalize
 end
